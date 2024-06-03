@@ -19,7 +19,13 @@ export default {
         ChestGuiEdit: "Leaf/ChestGUIs/Edit",
         ChestGuiEditItems: "Leaf/ChestGUIs/EditItems",
         ChestGuiEditItem: "Leaf/ChestGUIs/EditItem",
-        ChestGuiAddItem: "Leaf/ChestGUIs/AddItem"
+        ChestGuiAddItem: "Leaf/ChestGUIs/AddItem",
+        SidebarEditorRoot: "Leaf/Sidebar/Root",
+        SidebarEditorAdd: "Leaf/Sidebar/Add",
+        SidebarEditorSettings: "Leaf/Sidebar/Settings",
+        SidebarEditorEdit: "Leaf/Sidebar/Edit",
+        SidebarEditorAddLine: "Leaf/Sidebar/AddLine",
+        SidebarEditorEditLine: "Leaf/Sidebar/EditLine"
     },
     items: {
         LeafConfig: "leaf:config_ui"

@@ -15,5 +15,8 @@ uiManager.addUI(config.uiNames.ConfigRoot, "Config Root", (player)=>{
     actionForm.button(`§6Chest GUIs\n§r§7Make Chest UIs easily!`, icons.resolve("Packs/Asteroid/chest_tappable"), (player)=>{
         uiManager.open(player, config.uiNames.ChestGuiRoot)
     })
+    actionForm.button(`§bSidebar\n§r§7Make sidebars easily!`, `textures/azalea_icons/Sidebar`, (player)=>{
+        uiManager.open(player, config.uiNames.SidebarEditorRoot)
+    })
     actionForm.show(player, false, ()=>{})
 })

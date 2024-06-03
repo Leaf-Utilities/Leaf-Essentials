@@ -16,6 +16,13 @@ import './uis/chests/edit';
 import './uis/chests/editItems';
 import './uis/chests/addItem';
 import './uis/chests/editItem';
+import './uis/sidebar/root';
+import './uis/sidebar/add';
+import './uis/sidebar/settings';
+import './uis/sidebar/edit';
+import './uis/sidebar/addLine';
+import './uis/sidebar/editLine';
+import './api/sidebarDisplay'
 import icons from './api/icons';
 import azaleaIconPack from './icon_packs/azalea';
 import commandManager from './api/commands/commandManager';
